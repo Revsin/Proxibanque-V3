@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Virement interne</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse" style="background-color: rgb(15, 5, 107); border-bottom: none;">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="Images/logo.png"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html">Accueil</a></li>
+					<li><a href="conseiller.html">Gérer un client</a></li>
+					<li><a href="virexterne.html">Effectuer un virement externe</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+<div class="well" style="background-color:  rgb(89,247,223)"> 
+		<h1 id="nomClient" >Virement interne entre les comptes du client</h1>
+		
+		</div>
+		<hr></hr>
+		<table id="tableResultat" class="alert alert-info table table-striped"></table>
+
+		<div class="form-group">
+			<label for="sel1">Selection du compte à débiter : </label> <select
+				class="form-control" id="sel1">
+			</select>
+		</div>
+
+		<div class="form-group">
+			<label for="sel2">Selection du compte à créditer : </label> <select
+				class="form-control" id="sel2">
+			</select>
+		</div>
+
+		<div class="form-group">
+			<label for="montant">Montant du virement :</label><input type="number"
+				class="form-control" name="montant" id="montant"
+				value="0">
+		</div>
+		
+		<div id="alert" class="">   		
+  		</div>
+
+		<input type="button" onclick="virer();" class="btn btn-primary"
+			value="Virer">
+			
+			
+		<a href="conseiller.html" class="btn btn-success" role="button">Retour</a>
+
+	</div>
+	
+	
+	<footer class="container-fluid text-center">
+		<p>© 2017 Pentagone Team</p>
+	</footer>
+</body>
+</html>

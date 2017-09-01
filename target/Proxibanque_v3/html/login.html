@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Authentification Conseiller</title>
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse" style="background-color: rgb(15, 5, 107); border-bottom: none;">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="Images/logo.png"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html">Accueil</a></li>
+					<li><a href="agence.html">Notre agence</a></li>
+					<li><a href="aboutConseiller.html">Nos conseillers</a></li>
+					<li><a href="contact.html">Nous contacter</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span>
+							Login Conseillers</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+
+<div class="container" >
+		<div class="row col-md-12 jumbotron" style="background-color: rgba(89,247,223,0.8)">
+			<h1>Veuillez vous identifier</h1>
+
+			<form method="POST" action="../ProxibanqueAuthentication">
+				<div class="form-group">
+					<label for="login">Login</label> <input type="text"
+						class="form-control" id="login" name="login">
+				</div>
+				<div class="form-group">
+					<label for="password">Password</label> <input type="password"
+						class="form-control" id="password" name="pwd">
+				</div>
+				<input type="submit" class="btn btn-primary"
+					value="Submit">
+
+			</form>
+			<div id="alert" class=""></div>
+		</div>
+
+	</div>
+	
+	<footer class="container-fluid text-center">
+		<p>© 2017 Pentagone Team</p>
+	</footer>
+
+
+</body>
+
+</html>

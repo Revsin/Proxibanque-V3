@@ -1,0 +1,14 @@
+th {
+	text-align : center;
+	font-weight: bold;
+}
+
+#divResultat {
+	margin: auto;
+	width : 50%;
+	text-align : center;
+}
+
+button {
+	text-align : center;
+}

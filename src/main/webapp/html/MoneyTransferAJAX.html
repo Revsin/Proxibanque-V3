@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="ISO-8859-1">
+<title>Money Transfer</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/proxibanque6.css">
+
+<!-- <script src="../js/moneyTransferAJAX.js"></script> -->
+
+</head>
+<body>
+	<div class="container">
+		<div class="row col-md-12 jumbotron">
+			<h1>Money  Transfer</h1>
+						
+			<form method="POST" action="MoneyTransfer">
+			  <div class="form-group">
+			    <label for="sourceAccount">Compte &agrave D&eacutebiter:</label>
+			    <input type="text" class="form-control" id="sourceAccount" name="sourceAccount" value="10">
+			  </div>
+			   <div class="form-group">
+			    <label for="targetAccount">Compte &agrave Cr&eacutediter:</label>
+			    <input type="text" class="form-control" id="targetAccount" name="targetAccount" value="20">
+			  </div>	
+			  <div class="form-group">
+			    <label for="amount">Montant:</label>
+			    <input type="text" class="form-control" id="amount" name="amount" value="5000">
+			  </div>	
+			  <input type="submit" class="btn btn-primary" value="Valider">
+			  
+			  <a href="ClientListDisplayAJAX.html" class="btn btn-primary" role="button">Retour Liste Clients</a>
+			</form> 
+			
+			
+		</div>
+	</div>
+	
+	<div class="table-responsive">
+		<table id="divResultat"  class="alert alert-active table table-striped"></table>
+	</div> 
+		
+</body>
+</html>

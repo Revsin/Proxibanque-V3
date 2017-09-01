@@ -1,0 +1,13 @@
+[{"surname":"Dupont","firstname":"Marcel","address":"2 Rue de la Paix","zipcode":"75000","city":"Paris","telephone":"0612345678","email":"mdupont@hotmail.com","clientID":20578},
+{"surname":"Dubois","firstname":"Jean","address":"4, Faubourg Saint Honoré","zipcode":"75008","city":"Paris","telephone":"0623456789","email":"jdubois@gmail.com","clientID":20552},
+{"surname":"Deschamps","firstname":"Louis","address":"6 Rue de Belleville","zipcode":"75011","city":"Paris","telephone":"0634567890","email":"louis.deschamps@yahoo.com","clientID":20520},
+{"surname":"Dupuit","firstname":"Thomas","address":"8 Place du Capitole","zipcode":"31000","city":"Toulouse","telephone":"0645678901","email":"t.dupuit@gmail.fr","clientID":20587},
+{"surname":"Durand","firstname":"Guillaume","address":"10 Boulevard Saint Michel","zipcode":"75014","city":"Paris","telephone":"0656789012","email":"","clientID":20352},
+{"surname":"Després","firstname":"Nicolas","address":"12 Boulevard Saint Germain","zipcode":"75014","city":"Paris","telephone":"0667890123","email":"","clientID":20355},
+{"surname":"Delafontaine","Sandrine":"Jean","address":"14 Rue de Sèvres","zipcode":"75006","city":"Paris","telephone":"0678901234","email":"","clientID":20368},
+{"surname":"Martin","firstname":"Valérie","address":"16 Avenue Montparnasse","zipcode":"75015","city":"Paris","telephone":"0689012345","email":"","clientID":20288},
+{"surname":"Laforêt","firstname":"Cécile","address":"18 Boulevard Raspail","zipcode":"75006","city":"Paris","telephone":"0690123456","email":"","clientID":20250},
+{"surname":"Lamontagne","firstname":"Dominique","address":"20 Boulevard des Champs Elysées","zipcode":"75007","city":"Paris","telephone":"0611223344","email":"","clientID":20201},
+{"surname":"Rivière","firstname":"Gisèle","address":"22 Avenue Montaigne","zipcode":"75008","city":"Paris","telephone":"062233445566","email":"","clientID":20501},
+{"surname":"Delisle","firstname":"Christine","address":"24 Boulevard des Carmes","zipcode":"31000","city":"Toulouse","telephone":"0633445566","email":"","clientID":20469}]
+

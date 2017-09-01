@@ -1,0 +1,9 @@
+fr.proxibanque.dao
+fr.proxibanque.dao.exceptions
+fr.proxibanque.dao.jdbc
+fr.proxibanque.dao.tests
+fr.proxibanque.json.rest
+fr.proxibanque.metier
+fr.proxibanque.metier.tests
+fr.proxibanque.presentation
+fr.proxibanque.service

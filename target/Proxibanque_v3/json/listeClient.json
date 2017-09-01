@@ -1,0 +1,6 @@
+[
+{"numeroConseiller":"1","numero":"311234A","nom":"Bodin","prenom":"Audrey","adresse":"Rue des lilas","codePostal":"31500","ville":"Toulouse","telephone":"0637159874","email":"bodin.audrey@gmail.com"},
+{"numeroConseiller":"2","numero":"315678B","nom":"Thibaut","prenom":"Séverin","adresse":"Avenue du cul de sac","codePostal":"31430","ville":"Toulouse","telephone":"0645896312","email":"thibaut.severin@gmail.com"},
+{"numeroConseiller":"1","numero":"786789A","nom":"Bon","prenom":"Jean","adresse":"Impasse des Platanes","codePostal":"78100","ville":"Le chesnay","telephone":"0647965241","email":"bon.jean@gmail.com"},
+{"numeroConseiller":"2","numero":"638426C","nom":"Cantal","prenom":"Chantal","adresse":"place de Gergovie","codePostal":"63500","ville":"Clermont ferrand","telephone":"0473587463","email":"cantal.chantal@gmail.com"}
+]

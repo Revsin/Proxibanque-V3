@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+
+/* style de toutes les pages */ 
+/*-------------------------------*/
+
+
+
+body {
+	background-image: url("../Images/background2.jpg");
+}
+
+.well{
+	background-color: rgb(89,247,223,0.8);
+}
+
+th {
+	text-align: center;
+	font-weight: bold;
+}
+
+
+/* Ecran Index*/
+/*-------------------------------*/
+
+#liencaroussel{
+	background-color: white;
+	opacity: 0.8;
+	border: 2px solid rgb(20,101,89,0.8);
+    border-radius: 10px;
+}
+/* Ecran aboutconseiller.html */
+/*-------------------------------*/
+
+#GlobalaboutC
+{
+    width:100%;
+   
+	
+}
+ #gaucheaboutC {
+	text-align: center;
+    float:left;
+    width:60%;
+    
+}
+ #droiteaboutC  {
+    margin-left:60%;
+   text-align: center;
+}
+
+
+
+/* Ecran travaux.html */
+/*-------------------------------*/
+#travauxJPG{
+	display: block;
+    margin: auto;
+    width: 40%;
+}
+
+/* Ecran agence.html */
+/*-------------------------------*/
+#Globalagence
+{
+    width:100%;
+    background-color: white;
+	opacity: 0.8;
+}
+ #gaucheagence {
+	
+    float:left;
+    width:60%;
+    
+}
+ #droiteagence {
+    margin-left:60%;
+   
+}
+
+/* Ecran contact.html */
+/*-------------------------------*/
+

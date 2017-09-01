@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>Nous contacter</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+<script type="text/javascript" src="../js/Proxibanque.js"></script>
+
+
+<style>
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+</style>
+
+
+</head>
+<body style="background-color:powderblue;">
+
+<nav class="navbar navbar-inverse" style="background-color: rgb(15, 5, 107); border-bottom: none;">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="Images/logo.png"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html">Accueil</a></li>
+					<li><a href="agence.html">Notre agence</a></li>
+					<li><a href="aboutConseiller.html">Nos conseillers</a></li>
+					<li><a href="contact.html">Nous contacter</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span>
+							Login Conseillers</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+<h1>Vous souhaitez nous contacter, Remplissez ce formulaire.</h1>
+<hr>
+<h3> Un de nos conseiller se fera un plaisir de répondre à toutes vos questions. </h3>
+<hr>
+
+
+ <div class="container" style="background-color: rgb(89,247,223)">
+  <form >
+
+    <label for="fname">Prénom</label>
+    <input type="text" id="fname" name="firstname" placeholder="Votre prénom..">
+
+    <label for="lname">Nom</label>
+    <input type="text" id="lname" name="lastname" placeholder="Votre nom..">
+
+    <label for="country">Pays</label>
+    <select id="country" name="country">
+      <option value="france">France</option>
+      <option value="canada">Canada</option>
+      <option value="belgique">Belgique</option>
+    </select>
+
+    <label for="subject">Votre question</label>
+    <textarea id="subject" name="subject" placeholder="Ecrivez nous quelque chose.." style="height:200px"></textarea>
+
+    <input type="submit" class="btn btn-info" onclick="show_alertContact();" value="Submit" >
+
+  </form>
+</div> 
+
+
+<!-- Footer -->
+  <footer class="container-fluid text-center">
+		<p>© 2017 Pentagone Team</p>
+	</footer>
+  
+  
+</body>
+</html>

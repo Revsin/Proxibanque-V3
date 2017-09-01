@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="ISO-8859-1">
+<title>Proxibanque SI - Authentication Manager</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/proxibanque6.css">
+
+<!--  <script src="./js/authenticateBankExec.js"></script> -->
+
+</head>
+<body>
+	<div class="container">
+		<div class="row col-md-9 jumbotron">
+			<h1>Bank Executive Authentication Manager</h1>
+			
+			<form method="POST" action="ProxibanqueAuthentication">
+			  <div class="form-group">
+			    <label for="login">Login:</label>
+			    <input type="text" class="form-control" id="login" name="login" value="moiGrandConseiller">
+			  </div>
+			  <div class="form-group">
+			    <label for="pwd">Password:</label>
+			    <input type="password" class="form-control" id="pwd" name="pwd" value="123Soleil">
+			  </div>			 
+			  <input type="submit" class="btn btn-primary" value="Submit">
+			</form> 
+		</div>
+	
+	</div>
+</body>
+</html>

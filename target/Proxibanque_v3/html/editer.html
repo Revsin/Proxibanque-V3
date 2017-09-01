@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Edition du client</title>
+
+<link rel="stylesheet"	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: rgb(89,247,223);
+    padding: 20px;
+}
+
+</style>
+
+</head>
+<body>
+<nav class="navbar navbar-inverse" style="background-color: rgb(15, 5, 107); border-bottom: none;">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="Images/logo.png"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html">Accueil</a></li>
+					<li><a href="conseiller.html">Gérer un client</a></li>
+					<li><a href="virexterne.html">Effectuer un virement externe</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+<div class="well" style="background-color: rgb(89,247,223)"> 
+		<h1>Edition de votre client</h1>
+</div>
+		<hr></hr>
+		
+		<div class="container">
+		<form method="POST" action="EditerServlet">
+			<label for="fname">Nom</label>
+				<input type="text" name="nom"><br>
+			<label for="fname">Prénom</label>
+				<input type="text" name="prenom"><br>
+			<label for="fname">E Mail</label>
+				<input type="text" name="email"><br>
+			<label for="fname">Adresse</label>
+				<input type="text" name="adresse"><br>
+			<!-- <label for="fname">Code Postal</label>
+				<input type="text" name="codePostal"><br>
+			<label for="fname">Ville</label>
+				<input type="text" name="ville"><br> -->	
+			<input type="submit" value="Submit"> 	
+		</form>
+		<br>
+		<a href="conseiller.html" class="btn btn-success" role="button">Retour</a>
+
+	</div>
+
+<footer class="container-fluid text-center">
+		<p>© 2017 Pentagone Team</p>
+	</footer>
+	
+</body>
+</html>
+
+
+
+
+

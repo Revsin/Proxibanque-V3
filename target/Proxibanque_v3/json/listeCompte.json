@@ -1,0 +1,10 @@
+[
+{"indice":1,"numeroClient":"315678B","typeCompte":"Courant","numeroCompte":"31CC9876","solde":"10000"},
+{"indice":2,"numeroClient":"315678B","typeCompte":"Epargne","numeroCompte":"31CE6543","solde":"30000"},
+{"indice":3,"numeroClient":"311234A","typeCompte":"Courant","numeroCompte":"31CC1234","solde":"5000"},
+{"indice":4,"numeroClient":"311234A","typeCompte":"Epargne","numeroCompte":"31CE4567","solde":"10000"},
+{"indice":5,"numeroClient":"786789A","typeCompte":"Courant","numeroCompte":"78CC7319","solde":"1000"},
+{"indice":6,"numeroClient":"786789A","typeCompte":"Epargne","numeroCompte":"78CE4682","solde":"15000"},
+{"indice":7,"numeroClient":"638426C","typeCompte":"Courant","numeroCompte":"65CC7459","solde":"300"},
+{"indice":8,"numeroClient":"638426C","typeCompte":"Epargne","numeroCompte":"65CE5462","solde":"12000"}
+]
